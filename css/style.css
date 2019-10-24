@@ -1,0 +1,30 @@
+.img{
+    background-image: url("../images/bg-masthead.jpg");
+    min-height: 600px;
+}
+.padding{
+    padding-top: 250px;
+}
+#center .card{
+    padding-top: 40px;
+    border :unset;
+}
+.round
+{
+    max-width:12rem;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+}
+#testimonials .mb-5{
+    padding-top: 40px;
+}
+.call-to-action
+{
+    background-image: url(../images/bg-masthead.jpg);
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
