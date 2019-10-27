@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -22,11 +23,11 @@
     <div class="img">
     <section id="banner">
             <div class="masthead text-white text-align-center">
-                    <div class="overlay">
-                    <div class="container">
+                    <div class="overlay"></div>
+                    <div class="container" style="max-width: 100%">
                       <div class="row">
                         <div class="col-xl-9 mx-auto padding">
-                          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+                          <h1 class="mb-5 text-center">Build a landing page for your business or project and generate more leads!</h1>
                         </div>
                         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                           <form>
@@ -42,7 +43,6 @@
                           </form>
                         </div>
                       </div>
-                    </div>
                 </div>
             </div>
     </section>
@@ -78,44 +78,42 @@
     </section>
     <section class="showcase">
         <div class="container-fluid p-0">
-            <div class="row no-gutters">
+            <div class="row no-gutters align-items-center">
                 <div class="col-12 col-lg-6 order-lg-last">
                     <img src="images/bg-showcase-1.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-lg-6">
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text text-center" class="showcase-1" style="padding-top:50px">
-                        <h2>Fully Responsive Design</h2>
-                        <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-                      </div></div>
+                      <div class="container">
+                        <div class="text-align-center"><h2>Fully Responsive Design</h2></div>
+                        <div class="text-center"><p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p></div>
+                        </div>
+                      </div>
                 </div>
-            <div class="row no-gutters"> 
+            <div class="row justify-content-center no-gutters align-items-center"> 
                 <div class="col-12 col-lg-6">
                     <img src="images/bg-showcase-2.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="col-lg-6 my-auto showcase-text text-center">
-                        <h2>Updated For Bootstrap 4</h2>
-                            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+                  <div class="container">
+                        <h2 class="text-center">Updated For Bootstrap 4</h2>
+                            <p class="lead mb-0 text-center">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+                            </div>
                       </div>
                 </div>
-                </div>
-            <div class="row no-gutters">    
+            <div class="row no-gutters align-items-center">    
                 <div class="col-12 col-lg-6 order-lg-last">
                     <img src="images/bg-showcase-3.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="container">
-                     <div class="col-lg-6 order-lg-1 my-auto showcase-text text-center">
-                    <h2>Easy to Use &amp; Customize</h2>
-                    <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-                  </div>
+                    <h2 class="text-center">Easy to Use &amp; Customize</h2>
+                    <p class="lead mb-0 text-center">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
                 </div>
                 </div>
                 </div>
             </div>
         </div>
-    </section><br>
-    <br>
+    </section>
     <section id="testimonials" class="testimonials text-center bg-light">
             <div class="container">
               <h2 class="mb-5">What people are saying...</h2>
@@ -166,7 +164,7 @@
                   </div>
                 </div>
               </section>
-              <footer class="footer bg-light">
+              <section class="footer-bottom bg-light">
                     <div class="container">
                       <div class="row">
                         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
@@ -189,8 +187,27 @@
                           </ul>
                           <p class="text-muted small mb-4 mb-lg-0">&copy Your Website 2019. All Rights Reserved.</p>
                         </div>
+                        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                            <ul class="list-inline mb-0 design">
+                              <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="icofont-facebook"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item mr-3">
+                                <a href="#">
+                                    <i class="icofont-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="icofont-instagram"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
                       </div>
                     </div>
-                  </footer>
+              </section>
     </body>
 </html>
