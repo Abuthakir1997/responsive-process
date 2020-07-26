@@ -2,6 +2,9 @@
     background-image: url("../images/bg-masthead.jpg");
     min-height: 600px;
 }
+#center{
+    margin: 20px 0 20px 0;
+}
 #center .card{
     padding-top: 40px;
     border :unset;
@@ -16,6 +19,9 @@
 }
 #testimonials{
     min-height: 600px;
+} 
+.showcase-text{
+    margin: 40px 0 40px 0px;
 }
 .call-to-action
 {
